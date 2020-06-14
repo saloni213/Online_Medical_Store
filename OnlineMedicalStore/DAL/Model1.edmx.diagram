@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="52c2fc10f7ee449faec316b4cbce50f8" Name="Diagram1">
+        <EntityTypeShape EntityType="dbMyOnlineMedicalModel.Tbl_Cart" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineMedicalModel.Tbl_CartStatus" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineMedicalModel.Tbl_Category" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineMedicalModel.Tbl_MemberRole" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineMedicalModel.Tbl_Members" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineMedicalModel.Tbl_Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineMedicalModel.Tbl_Roles" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineMedicalModel.Tbl_ShippingDetails" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineMedicalModel.Tbl_SlideImage" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="dbMyOnlineMedicalModel.FK__Tbl_Cart__Produc__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="dbMyOnlineMedicalModel.FK__Tbl_Produ__Categ__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="dbMyOnlineMedicalModel.FK__Tbl_Shipp__Membe__4BAC3F29" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
